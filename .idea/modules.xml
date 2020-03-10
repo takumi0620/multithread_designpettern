@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MultiThread_DeginPettern.iml" filepath="$PROJECT_DIR$/MultiThread_DeginPettern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThread_DesignPettern.iml" filepath="$PROJECT_DIR$/MultiThread_DesignPettern.iml" />
     </modules>
   </component>
 </project>

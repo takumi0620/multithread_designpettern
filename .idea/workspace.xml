@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c4f7c7-a28e-4a86-b717-2c13bcfe385a" name="Default Changelist" comment="" />
+    <list default="true" id="88c4f7c7-a28e-4a86-b717-2c13bcfe385a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThread_DeginPettern/m1_single_thread_execution/Gate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThread_DeginPettern/m1_single_thread_execution/Gate.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -28,6 +35,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -37,7 +46,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="m1_single_thread_execution.Main" />
-      <module name="MultiThread_DeginPettern" />
+      <module name="MultiThread_DesignPettern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="m1_single_thread_execution.*" />
@@ -84,21 +93,29 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1583125882472" />
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1583126028834">
+    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1583804952167">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1583126028834" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1583126028833">
+    <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1583804952167" />
+    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1583804952167">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1583126028833" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1583126028832">
+    <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1583804952167" />
+    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1583804952167">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1583126028832" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1583126028833">
+    <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1583804952167" />
+    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1583804952167">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1583126028833" />
+    <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1583804952167" />
+    <state x="517" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1583804997932">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="517" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.962@0.23.1680.962" timestamp="1583804997932" />
+    <state x="498" y="147" width="683" height="714" key="find.popup" timestamp="1583805029054">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="498" y="147" width="683" height="714" key="find.popup/0.23.1680.962@0.23.1680.962" timestamp="1583805029054" />
   </component>
 </project>
