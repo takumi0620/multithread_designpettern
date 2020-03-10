@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c4f7c7-a28e-4a86-b717-2c13bcfe385a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m5_prodcuer_consumer/EaterThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m5_prodcuer_consumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m5_prodcuer_consumer/MakerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m5_prodcuer_consumer/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m6_read_write_lock/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m6_read_write_lock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m6_read_write_lock/ReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m6_read_write_lock/ReaderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m6_read_write_lock/WriterThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="m6_read_write_lock" />
       <recent name="m5_prodcuer_consumer" />
       <recent name="m2_immutable" />
       <recent name="m1_single_thread_execution" />
@@ -93,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m6_read_write_lock.Main" />
+      <module name="MultiThread_DesignPettern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="m6_read_write_lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="m1_single_thread_execution.Main" />
       <module name="MultiThread_DesignPettern" />
@@ -122,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -163,22 +177,22 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1583860610819" />
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom" timestamp="1583860907376">
+    <state width="1638" height="245" key="GridCell.Tab.0.bottom" timestamp="1583861900584">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1583860907376" />
-    <state width="1638" height="245" key="GridCell.Tab.0.center" timestamp="1583860907376">
+    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1583861900584" />
+    <state width="1638" height="245" key="GridCell.Tab.0.center" timestamp="1583861900583">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1583860907376" />
-    <state width="1638" height="245" key="GridCell.Tab.0.left" timestamp="1583860907375">
+    <state width="1638" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1583861900583" />
+    <state width="1638" height="245" key="GridCell.Tab.0.left" timestamp="1583861900583">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1583860907375" />
-    <state width="1638" height="245" key="GridCell.Tab.0.right" timestamp="1583860907376">
+    <state width="1638" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1583861900583" />
+    <state width="1638" height="245" key="GridCell.Tab.0.right" timestamp="1583861900584">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1583860907376" />
+    <state width="1638" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1583861900584" />
     <state x="517" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1583804997932">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
