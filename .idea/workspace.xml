@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c4f7c7-a28e-4a86-b717-2c13bcfe385a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/m9_future/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m9_future/FutureData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m9_future/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m9_future/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m9_future/RealData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m10_two_phase_termination/CountUpThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m10_two_phase_termination/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +53,7 @@
       <recent name="m5_prodcuer_consumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="m9_future.Main" />
       <module name="MultiThread_DesignPettern" />
@@ -70,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="m4_balking.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m10_two_phase_termination.Main" />
       <module name="MultiThread_DesignPettern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="m4_balking.*" />
+          <option name="PATTERN" value="m10_two_phase_termination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
@@ -166,22 +163,22 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1583966952685" />
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom" timestamp="1583967333496">
+    <state width="1638" height="245" key="GridCell.Tab.0.bottom" timestamp="1583970128625">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1583967333496" />
-    <state width="1638" height="245" key="GridCell.Tab.0.center" timestamp="1583967333495">
+    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1583970128625" />
+    <state width="1638" height="245" key="GridCell.Tab.0.center" timestamp="1583970128624">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1583967333495" />
-    <state width="1638" height="245" key="GridCell.Tab.0.left" timestamp="1583967333495">
+    <state width="1638" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1583970128624" />
+    <state width="1638" height="245" key="GridCell.Tab.0.left" timestamp="1583970128624">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1583967333495" />
-    <state width="1638" height="245" key="GridCell.Tab.0.right" timestamp="1583967333496">
+    <state width="1638" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1583970128624" />
+    <state width="1638" height="245" key="GridCell.Tab.0.right" timestamp="1583970128625">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1583967333496" />
+    <state width="1638" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1583970128625" />
     <state x="517" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1583804997932">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
