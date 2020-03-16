@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c4f7c7-a28e-4a86-b717-2c13bcfe385a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/m11_thread_specific_storage/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m11_thread_specific_storage/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m11_thread_specific_storage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m11_thread_specific_storage/TSLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m11_thread_specific_storage/example/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m11_thread_specific_storage/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/DisplayClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/MakerClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/ActivationQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/ActiveObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/ActiveObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/DisplayStringRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/FutureResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/MakeStringRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/MethodRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/RealResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/SchedulerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/Servant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiThread_DesignPettern/m10_two_phase_termination/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThread_DesignPettern/m10_two_phase_termination/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +62,14 @@
       <recent name="m11_thread_specific_storage" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="m12_active_object.activeobject" />
+      <recent name="m12_active_object" />
       <recent name="m9_future" />
       <recent name="m8_worker_thread" />
       <recent name="m7_thread_per_message" />
-      <recent name="m6_read_write_lock" />
-      <recent name="m5_prodcuer_consumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="m9_future.Main" />
       <module name="MultiThread_DesignPettern" />
@@ -101,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="m7_thread_per_message.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m12_active_object.Main" />
       <module name="MultiThread_DesignPettern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="m7_thread_per_message.*" />
+          <option name="PATTERN" value="m12_active_object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="m8_worker_thread.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m7_thread_per_message.Main" />
       <module name="MultiThread_DesignPettern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="m8_worker_thread.*" />
+          <option name="PATTERN" value="m7_thread_per_message.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,30 +188,50 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="440" y="169" key="#Project_Structure/0.23.1680.962@0.23.1680.962" timestamp="1583849895630" />
-    <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1583966952685">
+    <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1584361053528">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1583966952685" />
+    <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1584361053528" />
+    <state x="591" y="287" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584329629738">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="591" y="287" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1680.962@0.23.1680.962" timestamp="1584329629738" />
     <state x="605" y="396" width="498" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584326160204">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="605" y="396" width="498" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.962@0.23.1680.962" timestamp="1584326160204" />
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom" timestamp="1584327442665">
+    <state width="1638" height="319" key="GridCell.Tab.0.bottom" timestamp="1584361319809">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1584327442665" />
-    <state width="1638" height="245" key="GridCell.Tab.0.center" timestamp="1584327442665">
+    <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1584361319809" />
+    <state width="1638" height="319" key="GridCell.Tab.0.center" timestamp="1584361319808">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1584327442665" />
-    <state width="1638" height="245" key="GridCell.Tab.0.left" timestamp="1584327442664">
+    <state width="1638" height="319" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1584361319808" />
+    <state width="1638" height="319" key="GridCell.Tab.0.left" timestamp="1584361319808">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1584327442664" />
-    <state width="1638" height="245" key="GridCell.Tab.0.right" timestamp="1584327442665">
+    <state width="1638" height="319" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1584361319808" />
+    <state width="1638" height="319" key="GridCell.Tab.0.right" timestamp="1584361319808">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1584327442665" />
+    <state width="1638" height="319" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1584361319808" />
+    <state width="1638" height="319" key="GridCell.Tab.1.bottom" timestamp="1584361319810">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="319" key="GridCell.Tab.1.bottom/0.23.1680.962@0.23.1680.962" timestamp="1584361319810" />
+    <state width="1638" height="319" key="GridCell.Tab.1.center" timestamp="1584361319810">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="319" key="GridCell.Tab.1.center/0.23.1680.962@0.23.1680.962" timestamp="1584361319810" />
+    <state width="1638" height="319" key="GridCell.Tab.1.left" timestamp="1584361319809">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="319" key="GridCell.Tab.1.left/0.23.1680.962@0.23.1680.962" timestamp="1584361319809" />
+    <state width="1638" height="319" key="GridCell.Tab.1.right" timestamp="1584361319810">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="319" key="GridCell.Tab.1.right/0.23.1680.962@0.23.1680.962" timestamp="1584361319810" />
     <state x="517" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1583804997932">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
@@ -216,5 +244,16 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.962@0.23.1680.962" timestamp="1584326339624" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m12_active_object/MakerClientThread.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
