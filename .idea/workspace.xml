@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c4f7c7-a28e-4a86-b717-2c13bcfe385a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/DisplayClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/MakerClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/ActivationQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/ActiveObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/ActiveObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/DisplayStringRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/FutureResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/MakeStringRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/MethodRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/RealResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/SchedulerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m12_active_object/activeobject/Servant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,22 +185,22 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="605" y="396" width="498" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.962@0.23.1680.962" timestamp="1584326160204" />
-    <state width="1638" height="319" key="GridCell.Tab.0.bottom" timestamp="1584361319809">
+    <state width="1638" height="245" key="GridCell.Tab.0.bottom" timestamp="1584361497652">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1584361319809" />
-    <state width="1638" height="319" key="GridCell.Tab.0.center" timestamp="1584361319808">
+    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1584361497652" />
+    <state width="1638" height="245" key="GridCell.Tab.0.center" timestamp="1584361497651">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1584361319808" />
-    <state width="1638" height="319" key="GridCell.Tab.0.left" timestamp="1584361319808">
+    <state width="1638" height="245" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1584361497651" />
+    <state width="1638" height="245" key="GridCell.Tab.0.left" timestamp="1584361497650">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1584361319808" />
-    <state width="1638" height="319" key="GridCell.Tab.0.right" timestamp="1584361319808">
+    <state width="1638" height="245" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1584361497650" />
+    <state width="1638" height="245" key="GridCell.Tab.0.right" timestamp="1584361497651">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1584361319808" />
+    <state width="1638" height="245" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1584361497651" />
     <state width="1638" height="319" key="GridCell.Tab.1.bottom" timestamp="1584361319810">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
@@ -244,16 +229,5 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.962@0.23.1680.962" timestamp="1584326339624" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/m12_active_object/MakerClientThread.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
